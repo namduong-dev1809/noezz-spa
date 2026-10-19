@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
@@ -11,6 +10,16 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  images: {
+    // must match the query string built in lib/photos.ts
+    remotePatterns: [
+      { protocol: "https", hostname: "images.unsplash.com", pathname: "/photo-*", search: "?auto=format&fit=crop&w=1600&q=75" },
+    ],
+  },
+  async redirects() {
+    // local customers first: Vietnamese is the default
+    return [{ source: "/", destination: "/vi", permanent: false }];
   },
 };
 

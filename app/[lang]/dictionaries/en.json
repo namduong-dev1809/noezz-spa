@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Noezz Spa – Massage & skin care in Da Nang",
+    "description": "Herbal spa near An Thuong beach, Da Nang: body massage, hot stones, herbal head spa and facials."
+  },
+  "demo": "Demo website · fictional business · built by Duong Thanh Nam",
+  "nav": {
+    "services": "Treatments",
+    "why": "Why us",
+    "offer": "Offer",
+    "book": "Book",
+    "switchTo": "Tiếng Việt",
+    "hotline": "Hotline"
+  },
+  "hero": {
+    "kicker": "Herbal spa · An Thuong, Da Nang",
+    "title": "Relax the body, refresh the soul.",
+    "text": "Massages with natural oils, hot stones and herbal compresses, in a quiet space five minutes from the beach.",
+    "ctaBook": "Book now",
+    "ctaServices": "See prices"
+  },
+  "services": {
+    "kicker": "Treatments & prices",
+    "title": "Choose your treatment",
+    "minutes": "min",
+    "durationLabel": "Duration",
+    "book": "Book this",
+    "note": "Prices include ginger tea and a hot towel after your treatment. € prices are approximate."
+  },
+  "why": {
+    "kicker": "Why Noezz Spa",
+    "title": "Slow, clean and caring.",
+    "items": [
+      { "title": "Vietnamese herbs", "text": "Lemongrass, ginger, soapberry and turmeric, freshly prepared every day." },
+      { "title": "Certified therapists", "text": "At least 3 years of experience. We ask your preferred pressure first." },
+      { "title": "Private rooms, fresh linen", "text": "New towels and sheets for every guest, rooms steam-cleaned." }
+    ]
+  },
+  "offer": {
+    "kicker": "Special offer",
+    "title": "15% off for Noezz Homestay guests",
+    "text": "Show your room number when you pay. Valid for every treatment, every day.",
+    "cta": "Book now"
+  },
+  "booking": {
+    "kicker": "Booking",
+    "title": "Save your spot",
+    "intro": "Pick a treatment and a time. We confirm within 30 minutes.",
+    "name": "Your name",
+    "service": "Treatment",
+    "duration": "Duration",
+    "minutes": "min",
+    "date": "Date",
+    "time": "Time",
+    "note": "Note (optional)",
+    "sendWhatsapp": "Send via WhatsApp",
+    "sendEmail": "Send via email",
+    "errorRequired": "Please fill in your name, date and time.",
+    "errorPast": "The date can't be in the past.",
+    "requestText": "Hi Noezz Spa! Booking request",
+    "demoNote": "Demo: the buttons open WhatsApp or your email app with the request filled in. No booking is sent."
+  },
+  "visit": {
+    "hoursLabel": "Opening hours",
+    "hours": "9 am – 10 pm daily",
+    "addressLabel": "Address",
+    "address": "An Thuong area, Ngu Hanh Son, Da Nang (fictional)",
+    "phoneLabel": "Hotline (demo)",
+    "phone": "0000 000 000"
+  },
+  "footer": {
+    "tagline": "Herbal spa near the beach in Da Nang.",
+    "family": "Same family:",
+    "madeBy": "Website by"
+  }
+}

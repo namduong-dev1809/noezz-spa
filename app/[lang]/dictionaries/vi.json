@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Noezz Spa – Massage & chăm sóc da ở Đà Nẵng",
+    "description": "Spa thảo dược gần biển An Thượng, Đà Nẵng: massage body, đá nóng, gội đầu dưỡng sinh, chăm sóc da mặt."
+  },
+  "demo": "Website demo · spa không có thật · thực hiện bởi Dương Thành Nam",
+  "nav": {
+    "services": "Dịch vụ",
+    "why": "Vì sao chọn",
+    "offer": "Ưu đãi",
+    "book": "Đặt lịch",
+    "switchTo": "English",
+    "hotline": "Hotline"
+  },
+  "hero": {
+    "kicker": "Spa thảo dược · An Thượng, Đà Nẵng",
+    "title": "Thả lỏng cơ thể, làm mới tâm hồn.",
+    "text": "Massage bằng tinh dầu thiên nhiên, đá nóng và túi thảo dược, trong một không gian yên tĩnh cách biển 5 phút.",
+    "ctaBook": "Đặt lịch",
+    "ctaServices": "Xem bảng giá"
+  },
+  "services": {
+    "kicker": "Dịch vụ & bảng giá",
+    "title": "Chọn liệu trình của bạn",
+    "minutes": "phút",
+    "durationLabel": "Thời lượng",
+    "book": "Đặt dịch vụ này",
+    "note": "Giá đã gồm trà gừng và khăn nóng sau liệu trình."
+  },
+  "why": {
+    "kicker": "Vì sao chọn Noezz Spa",
+    "title": "Chậm rãi, sạch sẽ, tận tâm.",
+    "items": [
+      { "title": "Thảo dược Việt", "text": "Sả, gừng, bồ kết, nghệ: nguyên liệu tự nhiên, pha mới mỗi ngày." },
+      { "title": "Kỹ thuật viên có chứng chỉ", "text": "Tối thiểu 3 năm kinh nghiệm, hỏi lực massage trước mỗi buổi." },
+      { "title": "Phòng riêng, khăn mới", "text": "Mỗi khách một bộ khăn và ga mới, phòng xông khử khuẩn." }
+    ]
+  },
+  "offer": {
+    "kicker": "Ưu đãi",
+    "title": "Giảm 15% cho khách Noezz Homestay",
+    "text": "Đưa số phòng khi thanh toán. Áp dụng mọi liệu trình, mọi ngày trong tuần.",
+    "cta": "Đặt lịch ngay"
+  },
+  "booking": {
+    "kicker": "Đặt lịch",
+    "title": "Giữ chỗ cho bạn",
+    "intro": "Chọn dịch vụ và giờ, bọn mình sẽ xác nhận trong vòng 30 phút.",
+    "name": "Tên của bạn",
+    "service": "Dịch vụ",
+    "duration": "Thời lượng",
+    "minutes": "phút",
+    "date": "Ngày",
+    "time": "Giờ",
+    "note": "Ghi chú (không bắt buộc)",
+    "sendWhatsapp": "Gửi qua WhatsApp",
+    "sendEmail": "Gửi qua email",
+    "errorRequired": "Vui lòng điền tên, ngày và giờ.",
+    "errorPast": "Ngày đặt không được ở quá khứ.",
+    "requestText": "Chào Noezz Spa! Mình muốn đặt lịch",
+    "demoNote": "Bản demo: nút sẽ mở WhatsApp hoặc ứng dụng email với nội dung điền sẵn. Không có lịch hẹn nào được gửi đi."
+  },
+  "visit": {
+    "hoursLabel": "Giờ mở cửa",
+    "hours": "9:00 – 22:00 mỗi ngày",
+    "addressLabel": "Địa chỉ",
+    "address": "Khu An Thượng, Ngũ Hành Sơn, Đà Nẵng (giả định)",
+    "phoneLabel": "Hotline (demo)",
+    "phone": "0000 000 000"
+  },
+  "footer": {
+    "tagline": "Spa thảo dược gần biển Đà Nẵng.",
+    "family": "Cùng thương hiệu:",
+    "madeBy": "Website thực hiện bởi"
+  }
+}

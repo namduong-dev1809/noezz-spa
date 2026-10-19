@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-sand: #f7f5f3;
+  --color-forest: #3e5641;
+  --color-forest-dark: #2f4231;
+  --color-slate: #405861;
+  --color-sage: #a3b18a;
+  --color-ink: #2c3330;
+  --color-muted: #646c69;
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display-face);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-sand);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* fade up when scrolled into view; .js is set before paint so no-JS visitors still see everything */
+  .js .reveal:not(.in) {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  .js .reveal {
+    transition:
+      opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .js .reveal:nth-child(2) {
+    transition-delay: 0.12s;
+  }
+  .js .reveal:nth-child(3) {
+    transition-delay: 0.24s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
 }
