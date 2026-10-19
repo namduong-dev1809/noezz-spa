@@ -18,8 +18,7 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    // local customers first: Vietnamese is the default
-    return [{ source: "/", destination: "/vi", permanent: false }];
+    return [{ source: "/", destination: "/en", permanent: false }];
   },
 };
 

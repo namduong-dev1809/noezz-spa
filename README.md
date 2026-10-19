@@ -10,7 +10,7 @@ A one-page, bilingual (Vietnamese / English) landing page for a **fictional** he
 - **"Book this" pre-fills the booking form** with the treatment and duration you picked
 - **Booking form without a backend**: checks name, date and time, rejects past dates, then opens WhatsApp or the email app with the request written out
 - Hotline button that stays on screen, botanical line art, fade-in on scroll
-- `/vi` (default) and `/en` routes, mobile-first layout
+- `/en` (default) and `/vi` routes, mobile-first layout
 
 ## Tech
 
