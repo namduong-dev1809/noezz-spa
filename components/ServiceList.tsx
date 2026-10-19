@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { durations, formatPrice, services, type Duration, type Service } from "@/lib/services";
-import { photos } from "@/lib/photos";
 import { useBooking } from "./BookingContext";
+import ServiceIcon from "./ServiceIcon";
 
 function ServiceCard({ service, dict, locale }: { service: Service; dict: Dictionary; locale: Locale }) {
   const t = dict.services;
@@ -18,11 +17,11 @@ function ServiceCard({ service, dict, locale }: { service: Service; dict: Dictio
   }
 
   return (
-    <article className="reveal flex flex-col bg-white">
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <Image src={photos.services[service.id]} alt="" fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+    <article className="reveal flex flex-col items-center bg-white px-6 pt-10 pb-6 text-center">
+      <div className="grid size-24 place-items-center rounded-full border border-sage/60 text-forest">
+        <ServiceIcon id={service.id} className="size-12" />
       </div>
-      <div className="flex flex-1 flex-col p-6">
+      <div className="mt-6 flex w-full flex-1 flex-col items-center">
         <h3 className="font-display text-2xl font-semibold text-slate">{service.name[locale]}</h3>
         <p className="mt-2 text-sm text-muted">{service.desc[locale]}</p>
 
@@ -38,10 +37,10 @@ function ServiceCard({ service, dict, locale }: { service: Service; dict: Dictio
           </div>
         </fieldset>
 
-        <p className="mt-5 font-display text-3xl font-semibold text-forest" aria-live="polite">
+        <p className="mt-5 mb-6 font-display text-3xl font-semibold text-forest" aria-live="polite">
           {formatPrice(service.prices[duration], locale)}
         </p>
-        <button type="button" onClick={book} className="mt-6 border border-forest px-5 py-3 text-xs uppercase tracking-[0.2em] text-forest transition-colors hover:bg-forest hover:text-white">
+        <button type="button" onClick={book} className="mt-auto w-full border border-forest px-5 py-3 text-xs uppercase tracking-[0.2em] text-forest transition-colors hover:bg-forest hover:text-white">
           {t.book}
         </button>
       </div>
