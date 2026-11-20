@@ -1,5 +1,7 @@
 # Noezz Spa — demo website
 
+**Live demo: [noezz-spa.vercel.app](https://noezz-spa.vercel.app)**
+
 A one-page, bilingual (Vietnamese / English) landing page for a **fictional** herbal spa in Da Nang. Third demo of the Noezz family: [Noezz Homestay](https://github.com/namduong-dev1809/noezz-homestay) · [Noezz Coffee](https://github.com/namduong-dev1809/noezz-coffee).
 
 > Noezz Spa is not a real business. Address, phone number and prices are sample content. Photos are from [Unsplash](https://unsplash.com).
